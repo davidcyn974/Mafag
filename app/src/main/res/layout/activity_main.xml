@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:text="@string/TItle"
+        android:textSize="35sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/choix"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/faireunchoix"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/mafagUnit"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="@string/textNameMafag"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textURL"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="@string/url"
+        android:textSize="35sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonURL"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/buton2txt" />
+    <Button
+        android:id="@+id/buttonNotif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Notif" />
+
+</LinearLayout>
